@@ -1,7 +1,9 @@
 package com.example.demo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.boot.GetMapping;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UrlPathHelper;
+
 
 @Controller
 @RequestMapping("/")
